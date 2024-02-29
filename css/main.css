@@ -578,6 +578,7 @@ ul {
 /*start products*/
 .products {
     height: 110vh;
+    overflow: hidden !important;
     margin-bottom: 60px;
 }
 .products .container {
@@ -673,6 +674,7 @@ ul {
 @media (max-width: 767px) {
     .products {
         height: fit-content;
+
     }
     .products .container {
         flex-direction: column;
@@ -921,6 +923,7 @@ ul {
     text-transform: capitalize;
     height: 90vh;
     margin-bottom: 60px;
+    overflow: hidden;
 }
 .archive .title::after {
     left: 30%;
@@ -1037,6 +1040,7 @@ ul {
 .contact {
     height: fit-content;
     margin-bottom: 60px;
+    overflow: hidden;
 }
 .contact .container {
     display: flex;
@@ -1136,6 +1140,7 @@ ul {
     height: 80vh;
     overflow: hidden;
     padding-top: 60px;
+    overflow: hidden;
 }
 .project::-webkit-scrollbar {
     display: none;
@@ -1382,6 +1387,7 @@ ul {
 .footer {
     height: 30vh;
     text-transform: capitalize;
+    overflow: hidden ;
 }
 .footer .container {
     display: flex;
@@ -1474,7 +1480,7 @@ ul {
 }
 @media(max-width: 767px) {
     .footer {
-        height: 25vh;
+        height: 29vh;
         margin-top: -210px;
     }
     .footer .container .logo {
